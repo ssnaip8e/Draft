@@ -1,71 +1,72 @@
-<!DOCTYPE html>
-<html lang="ru"><!---->
+<!DOCTYPE html><!---->
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Черновик(DraftProject)</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet"> 
-    <!-- font-family: 'Ubuntu', sans-serif; -->
-    <link rel="stylesheet" href="css/main.css"> <!---->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css"> 
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-menu">
+    <header><!-- Шапка сайта-->
+        <div class="container"><!-- Блок с контентом-->
+            <div class="header-menu"><!-- -->
                 <span class="header-logo">Draft</span>
-                <ul>
-                    <li><a href="#">text</a></li>
-                    <li><a href="#">text</a></li>
-                    <li><a href="#">text</a></li>
+                <ul class="header-nav-links">
+                    <li><a href="#" class="header-link">В разработке</a></li>
+                    <li><a href="#" class="header-link">В разработке</a></li>
+                    <li><a href="#" class="header-link">В разработке</a></li>
                 </ul>
             </div>
             <div class="header-content">
-                <h1>title</h1>
-                <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh
-                    aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh
-                    aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh
-                </p>
+                <h1 class="header-title">Практичка</h1>
+                <p>В разработке</p>
             </div>
         </div>
     </header>
     <main>
         <div class="container">
-            <h2>Форма/Form</h2>
+            <h2 class="main-title">Галерея форм</h2>
             <div class="item-cards">
                 <div class="card">
-                    <h3>Кнопка/Button</h3>
-                    <button type="button">Нажать!</button>
-                    <p>С применением стиля и атрибута type="button"</p>
+                    <h3 class="card-title">Кнопка №1</h3><!-- Кнопка №1 -->
+                    <button type="button" class="button-classic">Нажать!</button>
+                    <p>Тег <code>"button"</code> с применением стиля CSS</p>
                 </div>
                 <div class="card">
-                    <h3>subtitle</h3>
-                    <p>aghkd [afln dfznhjnodaghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgoaghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh</p>
+                    <h3 class="card-title">Кнопка-Иконка</h3><!-- Кнопка-Иконка -->
+                    <button type="button" class="button-classic"><img src="img/icon-button.png" alt="button-img"></button>
+                    <p>Тег <code>"button"</code>с применением внутреннего тега <code>"img"</code> для картинки и немного стиля CSS</p>
                 </div>
                 <div class="card">
-                    <h3>subtitle</h3>
-                    <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgoier jag hbre hpgh</p>
+                    <h3 class="card-title">Кнопка с эффектом</h3><!-- Кнопка с эффектом -->
+                    <button type="button" class="button-classic btn-hover">Нажать!</button>
+                    <p>Тег <code>"button"</code>с применением стиля CSS + псевдокласс <code>:hover</code></p>
                 </div>
                 <div class="card">
-                    <h3>subtitle</h3>
+                    <h3 class="card-title">Кнопка №2</h3><!-- Кнопка №2 -->
+                    <input type="button" value="Нажать!" class="input-classic">
+                    <p>Тег <code>"input"</code> и атрибут=<code>"button"</code> с применением стиля CSS</p>
+                </div>
+                <div class="card">
+                    <h3>В разработке</h3>
                     <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh</p>
                 </div>
                 <div class="card">
-                    <h3>subtitle</h3>
-                    <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh</p>
-                </div>
-                <div class="card">
-                    <h3>subtitle</h3>
+                    <h3>В разработке</h3>
                     <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [iaghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgoaghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgoaghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgoaghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgoer jag hbre hpgh</p>
                 </div>
                 <div class="card">
-                    <h3>subtitle</h3>
+                    <h3>В разработке</h3>
                     <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh</p>
                 </div>
                 <div class="card">
-                    <h3>subtitle</h3>
+                    <h3>В разработке</h3>
                     <p>aghkd [afln dfznhjnod afjhsenkghoea rihhgoer[o aighfdhg [oiearhgio hfdhgo [ier jag hbre hpgh</p>
                 </div>
             </div>
@@ -73,7 +74,7 @@
     </main>
     <footer>
         <div class="container">
-            <h2>title</h2>
+            <h2>В разработке</h2>
         </div>
     </footer>
 </body>

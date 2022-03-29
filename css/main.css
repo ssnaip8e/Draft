@@ -1,65 +1,14 @@
-* { /* сброс */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+main {
+    margin-bottom: 1rem;
 }
-html {
-    font-size: 16px; /*16px=1rem в корень*/
-}
-body {
-    font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(66deg, #e38010, #1535bf);
-    color: #443650; /*#3c1900*/ /*#2e022d*/ /*#022f44*/
-}
-header, main {
-    margin-bottom: 15px;
-}
-.container {
+/*.container {
     background-color: white;
     width: 100%;
-    max-width: 1200px; /*максимальное для гибкости*/
-    margin: 0 auto; /*центрирование*/
-    padding: 20px 20px;
+    max-width: 1200px; максимальное для гибкости
+    margin: 0 auto; центрирование
+    padding: 1.3rem;
     border: 1px #7a797b solid;
-}
-.header-menu {
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-.header-logo {
-    color: white;
-    background: linear-gradient(66deg, #e38010, #1535bf);
-    font-weight: 700;
-    padding: 10px 12px;
-}
-.header-menu ul {
-    list-style-type: none;
-    display: inherit;
-}
-.header-menu li {
-    font-weight: 700;
-    padding: 10px 12px;
-    margin-right: 20px;
-    border-bottom: 2px solid #1e38b6;
-}
-a {
-    color: #2b2329;
-    font-weight: 300;
-    text-decoration: none;
-}
-.header-content {
-    display: flex;
-    justify-content: space-around;
-}
-.header-content h1 {
-    padding-top: 10px;
-}
-.header-content p {
-    font-weight: 300;
-    width: 50%;
-    text-align: center;
-}
+}*/
 .item-cards {
     display: flex;
     justify-content: space-evenly;
@@ -67,19 +16,42 @@ a {
 }
 .card {
     text-align: center;
-    margin: 20px 20px 20px 20px;
-    padding: 10px;
+    margin: 1rem;
+    padding: 0.7rem;
     width: 100%;
-    max-width: 200px;
+    max-width: 12.5rem;
     border: 3px solid ;
     border-image: linear-gradient(66deg, #e38010, #1535bf);
-    border-image-slice: 1;/*#8c8a8e*/
+    border-image-slice: 1;
 }
-button {
-    margin-top: 25px;
+.button-classic {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-top: 2.1rem;
     cursor: pointer;
-    border-width: 1px;
-    padding: 5px 10px;
+    border-width: 2px;
+    padding: 0.3rem 0.7rem;
     background-color: #94bbeb;
-    margin-bottom: 25px;
+    margin-bottom: 2.05rem;
 }
+.btn-hover:hover {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 1rem 1.2rem;
+    background-color: #0771f3;
+    border-width: 3px;
+    margin-bottom: 1.6rem;
+    margin-top: 1rem;
+}
+.input-classic {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-top: 2.1rem;
+    cursor: pointer;
+    border-width: 2px;
+    padding: 0.3rem 0.7rem;
+    background-color: #94bbeb;
+    margin-bottom: 2.05rem;
+}
+
