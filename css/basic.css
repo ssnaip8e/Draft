@@ -8,7 +8,7 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif; /*семейство шрифтов*/
-    background: linear-gradient(66deg, #e38010, #1535bf); /*фон через линейный градиент*/
+    background: linear-gradient(66deg, #23ecb7, #e63acf); /*фон через линейный градиент*/
     color: #443650; /*цвет шрифта*/
 }
 
