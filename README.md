@@ -1,2 +1,3 @@
-# Practical work with html/css
-Практическая работа с  HTML/CSS и наработка опыта с закреплением знаний.
+# Creating your own portfolio
+Создание своего портфолио.
+
