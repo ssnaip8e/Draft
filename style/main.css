@@ -139,6 +139,20 @@ h2 {
     left: 10px;
     box-shadow: -10px 10px 3px var(--bg-dark);
 }
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+#clock {
+  background-color: #121212;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .footer {
     padding: 0 15px;
     background: var(--bg-dark);
