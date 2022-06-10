@@ -1,3 +1,2 @@
-# Creating your own portfolio
-Создание своего портфолио.
+# Draft for practical works
 
